@@ -4,8 +4,8 @@ import { fileURLToPath } from 'url'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
-export const MediaCollection: CollectionConfig = {
-  slug: 'media-collection',
+export const Media: CollectionConfig = {
+  slug: 'media',
   labels: {
     singular: 'Media',
     plural: 'Media',
@@ -47,6 +47,6 @@ export const MediaCollection: CollectionConfig = {
         width: 1920,
         withoutEnlargement: true,
       },
-    ]
+    ],
   },
 }
